@@ -2,11 +2,13 @@
 This fork consists of my personal changes/additions to the original upscale project, while still keeping its spirit. The main purpose here is to try to revive the project by rallying some more people to help continuing and finishing it. Or at least do as much as we can.
 
 By default, most texture size will be around **1024x1024** max, while some others will be at a lower res (*vanilla is 64x64*). Upon testing, this is the resolution that I personally think is the best for both quality and performance reason. 4K resolution won't be an option due to how PPSSPP handles .PNG files, causing lots of performance drops (though I might reconsider this in the future).
+
 *This change can always be excluded / reverted if you prefer to keep some of the higher-res textures.*
 
 ## Changes that this pack currently brings:
 1. Add-ons:
 	- Monster Hunter World's icon pack, replacing majority of item icons and several UI icons.
+	
 (Progression: *90% item icons | 40% status icons | 100% button icons | 20% User Interface icons*)
 	- 5 Blademaster armor set fully upscaled: Mosgharl, Aelucanth, Agnaktor, Yamato and Vangis.
 	- 2 Hammers: Iron Striker & Jupiter's Sphere (*Duramboros' Hammer*).
@@ -46,6 +48,7 @@ Note, the textures were made using the V5.0 Translation patch applied. Your mile
 \memstick\PSP\
 ```
 Select "Yes" if you were prompted to replace files.
+
 3. Launch MHP3rd and enjoy!
 
 ### Installing optional files (xbox buttons, sharpness bar, etc):
