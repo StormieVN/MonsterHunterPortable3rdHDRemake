@@ -1,3 +1,3 @@
 # Stormie's HD texture upscale screenshots:
 Here houses the comparison photos and screenshots.
-![Screenie1](/../<screenshots>/path/to/Compare_Icon2.jpg?raw=true "Screenie 1")
+![Screenie1](https://github.com/StormieVN/MonsterHunterPortable3rdHDRemake/blob/screenshots/Compare_Belt_Vangis.jpg "Screenie 1")
