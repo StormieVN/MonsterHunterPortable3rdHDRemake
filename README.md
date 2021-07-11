@@ -10,6 +10,7 @@ By default, most texture size will be around **1024x1024** max, while some other
 	- Monster Hunter World's icon pack, replacing majority of item icons and several UI icons.
 	
 (Progression: *90% item icons | 40% status icons | 100% button icons | 20% User Interface icons*)
+
 	- 5 Blademaster armor set fully upscaled: Mosgharl, Aelucanth, Agnaktor, Yamato and Vangis.
 	- 2 Hammers: Iron Striker & Jupiter's Sphere (*Duramboros' Hammer*).
 	- 2 Poogie outfits: Hog in a Frog & Memorial Stripes.
