@@ -2,11 +2,12 @@
 This fork consists of my personal changes/additions to the original upscale project, while still keeping its spirit. The main purpose here is to try to revive the project by rallying some more people to help continuing and finishing it. Or at least do as much as we can.
 
 By default, most texture size will be around **1024x1024** max, while some others will be at a lower res (*vanilla is 64x64*). Upon testing, this is the resolution that I personally think is the best for both quality and performance reason. 4K resolution won't be an option due to how PPSSPP handles .PNG files, causing lots of performance drops (though I might reconsider this in the future).
+*This change can always be excluded / reverted if you prefer to keep some of the higher-res textures.*
 
 ## Changes that this pack currently brings:
 1. Add-ons:
 	- Monster Hunter World's icon pack, replacing majority of item icons and several UI icons.
-	(Progression: *90% item icons | 40% status icons | 100% button icons | 20% User Interface icons*)
+(Progression: *90% item icons | 40% status icons | 100% button icons | 20% User Interface icons*)
 	- 5 Blademaster armor set fully upscaled: Mosgharl, Aelucanth, Agnaktor, Yamato and Vangis.
 	- 2 Hammers: Iron Striker & Jupiter's Sphere (*Duramboros' Hammer*).
 	- 2 Poogie outfits: Hog in a Frog & Memorial Stripes.
@@ -18,19 +19,19 @@ By default, most texture size will be around **1024x1024** max, while some other
 	- Fixed the odd light glow that can be seen in *Guild Hall's lanterns/Personal home oven's light*. New version should be smoother and lighter in file-size.
 	- Fixed weird shadow in *Personal home*, turning it from white into a smooth dark gradient, which also eliminates the blocky pixelated shadow in vanilla.
 	- Fixed some of the hashes so that the game would properly load in the upscaled textures (some monsters didn't get their upscaled texture applied). However, due to the nature of hashes and updates, some textures might still be ignored and require further checking.
+	- Optimized both the resolution and size of original files.
 
 3. Optional files:
-	- Xbox One / Dualshock 4 layout for controller buttons.
-	- Sharpness bar with flat style (*MHW*) or chipped style (*MHP3rd*) at Orange/Red sharpness.
-	- Loading screen with / without decorative frames.
-	- Quest icon with plain / decorative style.
-	- Optional high performance pack for weak PC / phone users. Files are smaller and lighter while still retaining most of its detail.
-	(Texture size will be around **256x256** and lower)
+	- Xbox One layout for controller buttons. (**Default: Dualshock 4 layout**)
+	- Sharpness bar with flat style (*MHW*) or chipped style (*MHP3rd*) at Orange/Red sharpness. (**Default: chipped style**)
+	- Loading screen with / without decorative frames. (**Default: with frames**)
+	- Quest icon with plain / decorative style. (**Default: plain style**)
+	- Optional high performance pack for weak PC / phone users. Files are smaller and lighter while still retaining most of its detail (Texture size will be around **256x256** and lower).
 
-As usual, if you do not like any aspect of the texture pack, you can manually disable them specifically. The game will revert it to vanilla texture.
+As usual, if you do not like any aspect of the texture pack, you can manually disable them specifically. The game will revert them back to vanilla textures.
 
 ## Requirements:
-- PPSSPP 1.3 or later (PPSSPP version with texture replacement function)
+- PPSSPP 1.11.3 or later. Alternatively, a PPSSPP version with **texture replacement function** is the minimum requirement.
 - Playable Monster Hunter Portable 3rd HD (NPJB40001)
 - Optional: V5.0 translation patch
 Note, the textures were made using the V5.0 Translation patch applied. Your mileage may vary if you do not apply said patch before trying to run these textures.
@@ -41,14 +42,16 @@ Note, the textures were made using the V5.0 Translation patch applied. Your mile
 ### Fresh installation:
 1. Locate PPSSPP Settings - Tools - Developer tools - Enable "*Replace textures*"
 2. Extract/copy "*TEXTURES*" folder you got from the .zip into:
-```\memstick\PSP\
+```
+\memstick\PSP\
 ```
 Select "Yes" if you were prompted to replace files.
 3. Launch MHP3rd and enjoy!
 
 ### Installing optional files (xbox buttons, sharpness bar, etc):
 1. Extract/copy "*TEXTURES*" folder from the Optional pack of your choosing into:
-```\memstick\PSP\
+```
+\memstick\PSP\
 ```
 2. Select "Yes" when prompted to replace files.
 3. Launch MHP3rd and check if it works. If the game is running then you'll need to reload the game for the changes to appear.
