@@ -68,6 +68,7 @@ Internal Storage\PSP\
 \memstick\PSP\
 ```
 replacing the existing "*TEXTURES*" folder. For Android users, the path is the same as from **"Fresh installation"**.
+
 2. Select "Yes" when prompted to replace files.
 3. Launch MHP3rd and check if it works. If the game is running then you'll need to reload the game for the changes to appear.
 
