@@ -38,7 +38,7 @@ As usual, if you do not like any aspect of the texture pack, you can manually di
 Note, the textures were made using the V5.0 Translation patch applied. Your mileage may vary if you do not apply said patch before trying to run these textures.
 
 ## Download:
-- Navigate to the Release section on the top right side of the page or [***Click Here***]().
+- Navigate to the Release section on the top right side of the page or [***Click Here***](https://github.com/StormieVN/MonsterHunterPortable3rdHDRemake/releases).
 - Google Drive links for people who doesn't like using GitHub for some reason:
 	- [Stormie's HD pack v1.0.0](https://drive.google.com/file/d/1XfwSUNyhlhckC7CjQiuDwUwJDi-fhBuS/view?usp=sharing)
 	- [Stormie's Optional pack v1.0.0](https://drive.google.com/file/d/1JqFD4h7KGL8wlBO5zyjbXfQR-9ZQK289/view?usp=sharing)
