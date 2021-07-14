@@ -1,7 +1,7 @@
 # Stormie's Monster Hunter Portable 3rd (MHP3rd) HD Remake Texture Pack
 This fork consists of my personal changes/additions to the original upscale project, while still keeping its spirit. The main purpose here is to try to revive the project by rallying some more people to help continuing and finishing it. Or at least do as much as we can.
 
-By default, most texture size will be around **1024x1024** max, while some others will be at a lower res (*vanilla is 64x64*). Upon testing, this is the resolution that I personally think is the best for both quality and performance reason. 4K resolution won't be an option due to how PPSSPP handles .PNG files, causing lots of performance drops (though I might reconsider this in the future).
+By default, most texture size will be around **1024x1024** max, while some others will be at a lower res (*vanilla is 64x64*). Upon testing, this is the resolution that I personally think is the best for both quality and performance reason. 4K resolution won't be an option due to how PPSSPP handles .PNG files, causing lots of performance drops (though I might reconsider this in the future). Rectangular textures can have their width go up to **2048** however.
 
 *This change can always be excluded / reverted if you prefer to keep some of the higher-res textures.*
 
@@ -19,6 +19,7 @@ By default, most texture size will be around **1024x1024** max, while some other
 	- Fixed the odd light glow that can be seen in *Guild Hall's lanterns/Personal home oven's light*. New version should be smoother and lighter in file-size.
 	- Fixed weird shadow in *Personal home*, turning it from white into a smooth dark gradient, which also eliminates the blocky pixelated shadow in vanilla.
 	- Fixed some of the hashes so that the game would properly load in the upscaled textures (some monsters didn't get their upscaled texture applied). However, due to the nature of hashes and updates, some textures might still be ignored and require further checking.
+	- Reverted the text background back to vanilla since the upscaled one didn't have alpha channel / not transparent.
 	- Optimized both the resolution and size of original files.
 
 3. Optional files:
@@ -26,9 +27,9 @@ By default, most texture size will be around **1024x1024** max, while some other
 	- Sharpness bar with flat style (*MHW*) or chipped style (*MHP3rd*) at Orange/Red sharpness. (**Default: chipped style**)
 	- Loading screen with / without decorative frames. (**Default: with frames**)
 	- Quest icon with plain / decorative style. (**Default: plain style**)
-	- Optional high performance pack for weak PC / phone users. Files are smaller and lighter while still retaining most of its detail (Texture size will be around **256x256** and lower).
+	- Optional lightweight pack for weak PC / phone users. Files are smaller and lighter while still retaining most of its detail. Most texture files will be around **256x256** and lower, while background and landscapes are **512x512**.
 
-As usual, if you do not like any aspect of the texture pack, you can manually disable them specifically. The game will revert them back to vanilla textures.
+As usual, if you do not like any aspect of the texture pack, you can manually disable them specifically. The game will revert them back to vanilla textures. All of my personal changes are located in "`\TEXTURES\NPJB40001\STORMIE`", in case you need to find them.
 
 ## Requirements:
 - PPSSPP 1.11.3 or later. Alternatively, a PPSSPP version with **texture replacement function** is the minimum requirement.
@@ -36,29 +37,44 @@ As usual, if you do not like any aspect of the texture pack, you can manually di
 - Optional: V5.0 translation patch
 Note, the textures were made using the V5.0 Translation patch applied. Your mileage may vary if you do not apply said patch before trying to run these textures.
 
+## Download:
+- Navigate to the Release section on the top right side of the page or [***Click Here***]().
+- Google Drive links for people who doesn't like using GitHub for some reason:
+	- [Stormie's HD pack v1.0.0](https://drive.google.com/file/d/1XfwSUNyhlhckC7CjQiuDwUwJDi-fhBuS/view?usp=sharing)
+	- [Stormie's Optional pack v1.0.0](https://drive.google.com/file/d/1JqFD4h7KGL8wlBO5zyjbXfQR-9ZQK289/view?usp=sharing)
+	- [Lightweight pack for Phones/Weak PC v1.0.0](https://drive.google.com/file/d/10oAvDK4xzSvcx6ZT7-zHZabHt_oq_Rw4/view?usp=sharing)
+
 ## Installation (as of PPSSPP version 1.11.3):
 **Before installing my pack, make sure to back up any texture modification you've done (or move/rename the _"NPJB40001"_ folder), since this will replace a lot of files.**
 
 ### Fresh installation:
-1. Locate PPSSPP Settings - Tools - Developer tools - Enable "*Replace textures*"
-2. Extract/copy "*TEXTURES*" folder you got from the .zip into:
+1. Extract/copy "*TEXTURES*" folder you got from the .zip into:
 ```
 \memstick\PSP\
 ```
 Select "Yes" if you were prompted to replace files.
 
-3. Launch MHP3rd and enjoy!
+For Android users, the folder structure is a bit different, by default it should be in:
+```
+Internal Storage\PSP\
+```
+2. Open PPSSPP.
+3. Go to PPSSPP Settings - Tools - Developer tools - Enable "*Replace textures*"
+4. Launch MHP3rd and enjoy!
 
 ### Installing optional files (xbox buttons, sharpness bar, etc):
 1. Extract/copy "*TEXTURES*" folder from the Optional pack of your choosing into:
 ```
 \memstick\PSP\
 ```
+replacing the existing "*TEXTURES*" folder. For Android users, the path is the same as from **"Fresh installation"**.
 2. Select "Yes" when prompted to replace files.
 3. Launch MHP3rd and check if it works. If the game is running then you'll need to reload the game for the changes to appear.
 
-## Trailer:
+**Lightweight pack for Phones/Weak PC will have the Optional files included in the pack by default.**
 
+## Trailer:
+[![Youtube Trailer](https://github.com/StormieVN/MonsterHunterPortable3rdHDRemake/blob/screenshots/MHP3rd_Thumbnail_Play.jpg)](https://www.youtube.com/watch?v=RoOyvYqh7pc)
 
 ## Screenshots:
 ![Vangis/Deviljho comparison](https://github.com/StormieVN/MonsterHunterPortable3rdHDRemake/blob/screenshots/Compare_Belt_Vangis.jpg "Vangis / Deviljho")
@@ -69,10 +85,14 @@ Select "Yes" if you were prompted to replace files.
 
 ![Icons comparison](https://github.com/StormieVN/MonsterHunterPortable3rdHDRemake/blob/screenshots/Compare_Icon2.jpg "Drinks and weapon icon")
 
+![Optional files](https://github.com/StormieVN/MonsterHunterPortable3rdHDRemake/blob/screenshots/MHP3rd_Compare_Optionals.jpg)
+
 ## To-do list:
 - [ ] Fix the wrong fishing location on minimap in the Flooded Forest map.
-- [ ] Upscale / Redraw specific P3rd item icons like Bamboo shoots.
-- [ ] Rework Mosgharl & Aelucanth armor textures, making it on par with the rest. They were the first two that I started working on, so the experience wasn't fully there.
+- [ ] Upscale / Redraw specific P3rd item icons like Bamboo sprouts, Yukumo Wood, etc.
+- [ ] Rework Mosgharl & Aelucanth armor textures, making it on par with the rest. They were the first two that I started working on, so experience and quality weren't fully there.
+- [ ] Trim down duplicated files.
+- [ ] Add Xbox 360 controller layout.
 
 ## Additional contributions:
 If you're interested in contributing towards the project, feel free to join in and submit your own upscaled textures, ideas, suggestions, etc.
