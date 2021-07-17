@@ -5,6 +5,20 @@ By default, most texture size will be around **1024x1024** max, while some other
 
 *This change can always be excluded / reverted if you prefer to keep some of the higher-res textures.*
 
+## Screenshots:
+![Vangis/Deviljho comparison](https://github.com/StormieVN/MonsterHunterPortable3rdHDRemake/blob/screenshots/Compare_Belt_Vangis.jpg "Vangis / Deviljho")
+
+![Glow fix comparison](https://github.com/StormieVN/MonsterHunterPortable3rdHDRemake/blob/screenshots/Compare_Glow.jpg)
+
+![Yamato comparison](https://github.com/StormieVN/MonsterHunterPortable3rdHDRemake/blob/screenshots/Compare_Head_Yamato.jpg "Yamato helmet")
+
+![Icons comparison](https://github.com/StormieVN/MonsterHunterPortable3rdHDRemake/blob/screenshots/Compare_Icon2.jpg "Drinks and weapon icon")
+
+![Optional files](https://github.com/StormieVN/MonsterHunterPortable3rdHDRemake/blob/screenshots/MHP3rd_Compare_Optionals.jpg)
+
+## Trailer:
+[![Youtube Trailer](https://github.com/StormieVN/MonsterHunterPortable3rdHDRemake/blob/screenshots/MHP3rd_Thumbnail_Play.jpg)](https://www.youtube.com/watch?v=RoOyvYqh7pc)
+
 ## Changes that this pack currently brings:
 1. Add-ons:
 	- Monster Hunter World's icon pack, replacing majority of item icons and several UI icons. (Progression: *90% item icons | 40% status icons | 100% button icons | 20% User Interface icons*)
@@ -73,20 +87,6 @@ replacing the existing "*TEXTURES*" folder. For Android users, the path is the s
 3. Launch MHP3rd and check if it works. If the game is running then you'll need to reload the game for the changes to appear.
 
 **Lightweight pack for Phones/Weak PC will have the Optional files included in the pack by default.**
-
-## Trailer:
-[![Youtube Trailer](https://github.com/StormieVN/MonsterHunterPortable3rdHDRemake/blob/screenshots/MHP3rd_Thumbnail_Play.jpg)](https://www.youtube.com/watch?v=RoOyvYqh7pc)
-
-## Screenshots:
-![Vangis/Deviljho comparison](https://github.com/StormieVN/MonsterHunterPortable3rdHDRemake/blob/screenshots/Compare_Belt_Vangis.jpg "Vangis / Deviljho")
-
-![Glow fix comparison](https://github.com/StormieVN/MonsterHunterPortable3rdHDRemake/blob/screenshots/Compare_Glow.jpg)
-
-![Yamato comparison](https://github.com/StormieVN/MonsterHunterPortable3rdHDRemake/blob/screenshots/Compare_Head_Yamato.jpg "Yamato helmet")
-
-![Icons comparison](https://github.com/StormieVN/MonsterHunterPortable3rdHDRemake/blob/screenshots/Compare_Icon2.jpg "Drinks and weapon icon")
-
-![Optional files](https://github.com/StormieVN/MonsterHunterPortable3rdHDRemake/blob/screenshots/MHP3rd_Compare_Optionals.jpg)
 
 ## To-do list:
 - [ ] Fix the wrong fishing location on minimap in the Flooded Forest map.
