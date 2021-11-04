@@ -22,7 +22,7 @@ By default, most texture size will be around **1024x1024** max, while some other
 ## Changes that this pack currently brings:
 1. Add-ons:
 	- Monster Hunter World's icon pack, replacing majority of item icons and several UI icons. (Progression: *90% item icons | 40% status icons | 100% button icons | 20% User Interface icons*)
-	- 5 Blademaster armor set fully upscaled: Mosgharl, Aelucanth, Agnaktor, Yamato and Vangis.
+	- 5 Male Blademaster armor set fully upscaled: Mosgharl, Aelucanth, Agnaktor, Yamato and Vangis.
 	- 2 Hammers: Iron Striker & Jupiter's Sphere (*Duramboros' Hammer*).
 	- 2 Poogie outfits: Hog in a Frog & Memorial Stripes.
 	- New and proper Portable 3rd loading screen (provided by Josli), replacing the old Freedom Unite's screen from the original pack.
@@ -87,14 +87,6 @@ replacing the existing "*TEXTURES*" folder. For Android users, the path is the s
 3. Launch MHP3rd and check if it works. If the game is running then you'll need to reload the game for the changes to appear.
 
 **Lightweight pack for Phones/Weak PC will have the Optional files included in the pack by default.**
-
-## To-do list:
-- [ ] Fix the wrong fishing location on minimap in the Flooded Forest map.
-- [ ] Upscale / Redraw specific P3rd item icons like Bamboo sprouts, Yukumo Wood, etc.
-- [ ] Rework Mosgharl & Aelucanth armor textures, making it on par with the rest. They were the first two that I started working on, so experience and quality weren't fully there.
-- [ ] Trim down duplicated files.
-- [ ] Add Xbox 360 controller layout.
-- [ ] Add experimental branch for easier troubleshooting.
 
 ## Additional contributions:
 If you're interested in contributing towards the project, feel free to join in and submit your own upscaled textures, ideas, suggestions, etc.
