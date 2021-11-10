@@ -5,7 +5,7 @@ By default, most texture size will be around **1024x1024** max, while some other
 
 *This change can always be excluded / reverted if you prefer to keep some of the higher-res textures.*
 
-## Screenshots:
+## Screenshots (click to see larger images):
 <img src="https://github.com/StormieVN/MonsterHunterPortable3rdHDRemake/blob/screenshots/Compare_Belt_Vangis.jpg" height="200"><img src="https://github.com/StormieVN/MonsterHunterPortable3rdHDRemake/blob/screenshots/Compare_Glow.jpg" height="200"><img src="https://github.com/StormieVN/MonsterHunterPortable3rdHDRemake/blob/screenshots/Compare_Head_Yamato.jpg" height="200"><img src="https://github.com/StormieVN/MonsterHunterPortable3rdHDRemake/blob/screenshots/Compare_Icon2.jpg" height="200"><img src="https://github.com/StormieVN/MonsterHunterPortable3rdHDRemake/blob/screenshots/MHP3rd_Compare_Optionals.jpg" height="200">
 
 ## Trailer:
